@@ -21,7 +21,6 @@ else {
     print("Didn't find it")
 }*/
 
-//Binary Search
 if binaryContains(_array:gene, item: acg){
     print("Found it!")
 }
@@ -35,6 +34,8 @@ enum Nucleotide: Character, Comparable
 }
 
 //Override < operator
+//Purpose: To overload the < operator
+//Created by: Alyson Mosely
 func <(lhs: Nucleotide, rhs: Nucleotide) -> Bool {
    return (lhs.rawValue < rhs.rawValue)
 }
@@ -43,6 +44,8 @@ typealias Codon = (Nucleotide, Nucleotide, Nucleotide)
 typealias Gene = [Codon]
 
 //Linear search function
+//Purpose: To search the array to find a gene by linear search
+//Created by: Alyson Mosely
 func linearContains(_array: Gene, item: Codon) -> Bool {
     for element in _array where item == element {
         return true
@@ -50,7 +53,10 @@ func linearContains(_array: Gene, item: Codon) -> Bool {
     return false
 }
 
-//Binary search functon
+
+//Function Name: Binary Search
+//Purpose: To search the array to find a gene by binary search
+//Created by: Alyson Mosely
 func binaryContains(_array: Gene, item: Codon) -> Bool {
     var low = 0;
     var high = _array.count - 1
@@ -67,7 +73,9 @@ func binaryContains(_array: Gene, item: Codon) -> Bool {
     return false
 }
 
-//String to gene function
+//Function name: String to gene
+//Purpose: To traverse the string array and convert to genes
+//Created by: Alyson Mosely
 func stringToGene(_s:String) -> Gene {
     var gene = Gene()
     for i in stride(from: 0, to: _s.count, by:3){
