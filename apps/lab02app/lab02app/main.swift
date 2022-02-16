@@ -12,6 +12,8 @@ var gene = stringToGene(_s:geneSequence)
 let acg: Codon = (.A, .C, .G)
 print(geneSequence)
 print(gene)
+
+//Linear Code that was refactered with binary search
 /*if linearContains(_array:gene, item: acg){
     print("Found it!")
 }
@@ -19,6 +21,7 @@ else {
     print("Didn't find it")
 }*/
 
+//Binary Search
 if binaryContains(_array:gene, item: acg){
     print("Found it!")
 }
