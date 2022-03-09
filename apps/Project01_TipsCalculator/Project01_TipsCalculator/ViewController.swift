@@ -2,24 +2,18 @@
 //  ViewController.swift
 //  Project01_TipsCalculator
 //
-//  Created by Alyson Mosely on 2/23/22.
+//  Created by Alyson Mosely on 3/3/22.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+
+    @IBOutlet weak var tipLabel: UILabel!
+    @IBOutlet weak var totalLabel: UILabel!
+    @IBOutlet weak var billField: UITextField!
+    @IBOutlet weak var tipControl: UISegmentedControl!
     
-    @IBOutlet weak var input_BillAmount: UITextField!
-    @IBOutlet weak var CalucateTipBttn: UIButton!
-    @IBOutlet weak var tipAmountLbl: UILabel!
-    @IBOutlet weak var input_TipPerc: UITextField!
-    @IBOutlet weak var billAmountLbl: UILabel!
-    
-    @IBAction func calculateTip(_ sender: Any) {
-        let tipAmount: Double = (Double(input_TipPerc.text!)! / 100) * Double(input_BillAmount.text!)!
-        tipAmountLbl.text = "\(tipAmount)"
-        
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,5 +21,22 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func onTap(_ sender: Any) {
+        //hides the keyboard
+        view.endEditing(true)
+    }
+    
+    @IBAction func calculateTip(_ sender: Any) {
+        
+        let tipPercentages = [0.15, 0.18, 0.25]
+        
+        let bill = Double(billField.text!) ?? 0
+        
+        let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
+        let total = bill + tip
+        
+        tipLabel.text = String(format: "$%.2f", tip)
+        totalLabel.text = String(format: "$%.2f", total)
+    }
 }
 
