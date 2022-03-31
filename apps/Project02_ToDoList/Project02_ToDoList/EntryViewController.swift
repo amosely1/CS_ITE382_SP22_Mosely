@@ -10,6 +10,8 @@ import UIKit
 class EntryViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet var field: UITextField!
+    @IBOutlet var time: UITextField!
+    @IBOutlet var location: UITextField!
     
     var update: (() -> Void)?
     
@@ -46,6 +48,11 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
         
         UserDefaults().set(newCount, forKey: "count")
         UserDefaults().set(text, forKey: "task_\(newCount)")
+        
+        update?()
+        
+        navigationController?.popViewController(animated: true)
+        
         
         
     }

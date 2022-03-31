@@ -63,22 +63,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H7j-e4-mwE">
-                                <rect key="frame" x="20" y="64" width="374" height="95"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="52" id="z8k-PX-407"/>
-                                </constraints>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name of task.." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H7j-e4-mwE">
+                                <rect key="frame" x="20" y="118" width="374" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eaL-uk-QUQ"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
-                            <constraint firstItem="H7j-e4-mwE" firstAttribute="leading" secondItem="eaL-uk-QUQ" secondAttribute="leading" constant="20" id="01Q-vX-bBD"/>
-                            <constraint firstItem="eaL-uk-QUQ" firstAttribute="bottom" secondItem="H7j-e4-mwE" secondAttribute="bottom" constant="703" id="3o0-1T-Pa6"/>
-                            <constraint firstItem="eaL-uk-QUQ" firstAttribute="trailing" secondItem="H7j-e4-mwE" secondAttribute="trailing" constant="20" id="Gw8-3T-eWv"/>
-                            <constraint firstItem="H7j-e4-mwE" firstAttribute="top" secondItem="eaL-uk-QUQ" secondAttribute="top" constant="20" id="dmq-7Y-a8L"/>
+                            <constraint firstItem="H7j-e4-mwE" firstAttribute="top" secondItem="eaL-uk-QUQ" secondAttribute="top" constant="74" id="Fc9-Vh-G6c"/>
+                            <constraint firstItem="H7j-e4-mwE" firstAttribute="leading" secondItem="Vea-IJ-YIy" secondAttribute="leadingMargin" id="t29-3N-YBd"/>
+                            <constraint firstItem="H7j-e4-mwE" firstAttribute="trailing" secondItem="Vea-IJ-YIy" secondAttribute="trailingMargin" id="tGt-rl-Zfa"/>
                         </constraints>
                     </view>
                     <connections>
@@ -96,9 +92,37 @@
                     <view key="view" contentMode="scaleToFill" id="Dnk-dh-QgZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1P-h9-iYZ">
+                                <rect key="frame" x="129" y="98" width="259" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zd6-nC-c2U">
+                                <rect key="frame" x="14" y="106" width="91" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="91" id="IEw-2Y-UBJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="L0u-I2-4mH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L0u-I2-4mH" firstAttribute="trailing" secondItem="J1P-h9-iYZ" secondAttribute="trailing" constant="26" id="IqM-UA-p3L"/>
+                            <constraint firstItem="J1P-h9-iYZ" firstAttribute="top" secondItem="L0u-I2-4mH" secondAttribute="top" constant="54" id="R3D-7j-se1"/>
+                            <constraint firstItem="zd6-nC-c2U" firstAttribute="centerY" secondItem="J1P-h9-iYZ" secondAttribute="centerY" id="Xjy-5b-Sf5"/>
+                            <constraint firstItem="zd6-nC-c2U" firstAttribute="top" secondItem="L0u-I2-4mH" secondAttribute="top" constant="62" id="a4J-ne-1GA"/>
+                            <constraint firstItem="J1P-h9-iYZ" firstAttribute="leading" secondItem="zd6-nC-c2U" secondAttribute="trailing" constant="24" id="qgj-04-vsw"/>
+                            <constraint firstItem="zd6-nC-c2U" firstAttribute="leading" secondItem="L0u-I2-4mH" secondAttribute="leading" constant="14" id="xhh-Qb-6od"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="J1P-h9-iYZ" id="qqo-dO-IoA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ibc-7Y-KmD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -126,6 +150,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
