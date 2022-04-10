@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3362CF9D28022DE500BACB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3362CF9C28022DE500BACB88 /* AppDelegate.swift */; };
+		3362CF9F28022DE500BACB88 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3362CF9E28022DE500BACB88 /* GameScene.sks */; };
+		3362CFA128022DE500BACB88 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3362CFA028022DE500BACB88 /* Actions.sks */; };
+		3362CFA328022DE500BACB88 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3362CFA228022DE500BACB88 /* GameScene.swift */; };
+		3362CFA528022DE500BACB88 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3362CFA428022DE500BACB88 /* GameViewController.swift */; };
+		3362CFA828022DE500BACB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3362CFA628022DE500BACB88 /* Main.storyboard */; };
+		3362CFAA28022DE600BACB88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3362CFA928022DE600BACB88 /* Assets.xcassets */; };
+		3362CFAD28022DE600BACB88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3362CFAB28022DE600BACB88 /* LaunchScreen.storyboard */; };
+		3362CFB728022DE700BACB88 /* FinalProj_MarsAttacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3362CFB628022DE700BACB88 /* FinalProj_MarsAttacksTests.swift */; };
+		3362CFC128022DE700BACB88 /* FinalProj_MarsAttacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3362CFC028022DE700BACB88 /* FinalProj_MarsAttacksUITests.swift */; };
+		3362CFC328022DE700BACB88 /* FinalProj_MarsAttacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3362CFC228022DE700BACB88 /* FinalProj_MarsAttacksUITestsLaunchTests.swift */; };
+		33641BDA28033296006B3776 /* Explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 33641BD828033296006B3776 /* Explosion.wav */; };
+		33641BDB28033296006B3776 /* Fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 33641BD928033296006B3776 /* Fire.wav */; };
+		33641BDD2803372E006B3776 /* Explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 33641BD828033296006B3776 /* Explosion.wav */; };
+		33641BDE28033733006B3776 /* Fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 33641BD928033296006B3776 /* Fire.wav */; };
+		33641BDF28033739006B3776 /* A-Space Black Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33641BDC28033706006B3776 /* A-Space Black Demo.otf */; };
+		33641BE228034DAD006B3776 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33641BE128034DAD006B3776 /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3362CFB328022DE700BACB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3362CF9128022DE500BACB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3362CF9828022DE500BACB88;
+			remoteInfo = FinalProj_MarsAttacks;
+		};
+		3362CFBD28022DE700BACB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3362CF9128022DE500BACB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3362CF9828022DE500BACB88;
+			remoteInfo = FinalProj_MarsAttacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3362CF9928022DE500BACB88 /* FinalProj_MarsAttacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProj_MarsAttacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3362CF9C28022DE500BACB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3362CF9E28022DE500BACB88 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3362CFA028022DE500BACB88 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		3362CFA228022DE500BACB88 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3362CFA428022DE500BACB88 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3362CFA728022DE500BACB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3362CFA928022DE600BACB88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3362CFAC28022DE600BACB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3362CFB228022DE700BACB88 /* FinalProj_MarsAttacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProj_MarsAttacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3362CFB628022DE700BACB88 /* FinalProj_MarsAttacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProj_MarsAttacksTests.swift; sourceTree = "<group>"; };
+		3362CFBC28022DE700BACB88 /* FinalProj_MarsAttacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProj_MarsAttacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3362CFC028022DE700BACB88 /* FinalProj_MarsAttacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProj_MarsAttacksUITests.swift; sourceTree = "<group>"; };
+		3362CFC228022DE700BACB88 /* FinalProj_MarsAttacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProj_MarsAttacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33641BD828033296006B3776 /* Explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Explosion.wav; sourceTree = "<group>"; };
+		33641BD928033296006B3776 /* Fire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fire.wav; sourceTree = "<group>"; };
+		33641BDC28033706006B3776 /* A-Space Black Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A-Space Black Demo.otf"; sourceTree = "<group>"; };
+		33641BE028033836006B3776 /* FinalProj-MarsAttacks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FinalProj-MarsAttacks-Info.plist"; sourceTree = SOURCE_ROOT; };
+		33641BE128034DAD006B3776 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3362CF9628022DE500BACB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3362CFAF28022DE700BACB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3362CFB928022DE700BACB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3362CF9028022DE500BACB88 = {
+			isa = PBXGroup;
+			children = (
+				3362CF9B28022DE500BACB88 /* FinalProj_MarsAttacks */,
+				3362CFB528022DE700BACB88 /* FinalProj_MarsAttacksTests */,
+				3362CFBF28022DE700BACB88 /* FinalProj_MarsAttacksUITests */,
+				3362CF9A28022DE500BACB88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3362CF9A28022DE500BACB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3362CF9928022DE500BACB88 /* FinalProj_MarsAttacks.app */,
+				3362CFB228022DE700BACB88 /* FinalProj_MarsAttacksTests.xctest */,
+				3362CFBC28022DE700BACB88 /* FinalProj_MarsAttacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3362CF9B28022DE500BACB88 /* FinalProj_MarsAttacks */ = {
+			isa = PBXGroup;
+			children = (
+				33641BE028033836006B3776 /* FinalProj-MarsAttacks-Info.plist */,
+				3362CF9C28022DE500BACB88 /* AppDelegate.swift */,
+				3362CF9E28022DE500BACB88 /* GameScene.sks */,
+				3362CFA028022DE500BACB88 /* Actions.sks */,
+				3362CFA228022DE500BACB88 /* GameScene.swift */,
+				33641BE128034DAD006B3776 /* GameOverScene.swift */,
+				3362CFA428022DE500BACB88 /* GameViewController.swift */,
+				33641BD828033296006B3776 /* Explosion.wav */,
+				33641BDC28033706006B3776 /* A-Space Black Demo.otf */,
+				33641BD928033296006B3776 /* Fire.wav */,
+				3362CFA628022DE500BACB88 /* Main.storyboard */,
+				3362CFA928022DE600BACB88 /* Assets.xcassets */,
+				3362CFAB28022DE600BACB88 /* LaunchScreen.storyboard */,
+			);
+			path = FinalProj_MarsAttacks;
+			sourceTree = "<group>";
+		};
+		3362CFB528022DE700BACB88 /* FinalProj_MarsAttacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				3362CFB628022DE700BACB88 /* FinalProj_MarsAttacksTests.swift */,
+			);
+			path = FinalProj_MarsAttacksTests;
+			sourceTree = "<group>";
+		};
+		3362CFBF28022DE700BACB88 /* FinalProj_MarsAttacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3362CFC028022DE700BACB88 /* FinalProj_MarsAttacksUITests.swift */,
+				3362CFC228022DE700BACB88 /* FinalProj_MarsAttacksUITestsLaunchTests.swift */,
+			);
+			path = FinalProj_MarsAttacksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3362CF9828022DE500BACB88 /* FinalProj_MarsAttacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3362CFC628022DE700BACB88 /* Build configuration list for PBXNativeTarget "FinalProj_MarsAttacks" */;
+			buildPhases = (
+				3362CF9528022DE500BACB88 /* Sources */,
+				3362CF9628022DE500BACB88 /* Frameworks */,
+				3362CF9728022DE500BACB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalProj_MarsAttacks;
+			productName = FinalProj_MarsAttacks;
+			productReference = 3362CF9928022DE500BACB88 /* FinalProj_MarsAttacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3362CFB128022DE700BACB88 /* FinalProj_MarsAttacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3362CFC928022DE700BACB88 /* Build configuration list for PBXNativeTarget "FinalProj_MarsAttacksTests" */;
+			buildPhases = (
+				3362CFAE28022DE700BACB88 /* Sources */,
+				3362CFAF28022DE700BACB88 /* Frameworks */,
+				3362CFB028022DE700BACB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3362CFB428022DE700BACB88 /* PBXTargetDependency */,
+			);
+			name = FinalProj_MarsAttacksTests;
+			productName = FinalProj_MarsAttacksTests;
+			productReference = 3362CFB228022DE700BACB88 /* FinalProj_MarsAttacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3362CFBB28022DE700BACB88 /* FinalProj_MarsAttacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3362CFCC28022DE700BACB88 /* Build configuration list for PBXNativeTarget "FinalProj_MarsAttacksUITests" */;
+			buildPhases = (
+				3362CFB828022DE700BACB88 /* Sources */,
+				3362CFB928022DE700BACB88 /* Frameworks */,
+				3362CFBA28022DE700BACB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3362CFBE28022DE700BACB88 /* PBXTargetDependency */,
+			);
+			name = FinalProj_MarsAttacksUITests;
+			productName = FinalProj_MarsAttacksUITests;
+			productReference = 3362CFBC28022DE700BACB88 /* FinalProj_MarsAttacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3362CF9128022DE500BACB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3362CF9828022DE500BACB88 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3362CFB128022DE700BACB88 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3362CF9828022DE500BACB88;
+					};
+					3362CFBB28022DE700BACB88 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3362CF9828022DE500BACB88;
+					};
+				};
+			};
+			buildConfigurationList = 3362CF9428022DE500BACB88 /* Build configuration list for PBXProject "FinalProj_MarsAttacks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3362CF9028022DE500BACB88;
+			productRefGroup = 3362CF9A28022DE500BACB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3362CF9828022DE500BACB88 /* FinalProj_MarsAttacks */,
+				3362CFB128022DE700BACB88 /* FinalProj_MarsAttacksTests */,
+				3362CFBB28022DE700BACB88 /* FinalProj_MarsAttacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3362CF9728022DE500BACB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33641BDF28033739006B3776 /* A-Space Black Demo.otf in Resources */,
+				33641BDE28033733006B3776 /* Fire.wav in Resources */,
+				33641BDD2803372E006B3776 /* Explosion.wav in Resources */,
+				3362CFA828022DE500BACB88 /* Main.storyboard in Resources */,
+				3362CF9F28022DE500BACB88 /* GameScene.sks in Resources */,
+				3362CFAA28022DE600BACB88 /* Assets.xcassets in Resources */,
+				3362CFAD28022DE600BACB88 /* LaunchScreen.storyboard in Resources */,
+				3362CFA128022DE500BACB88 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3362CFB028022DE700BACB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3362CFBA28022DE700BACB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33641BDB28033296006B3776 /* Fire.wav in Resources */,
+				33641BDA28033296006B3776 /* Explosion.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3362CF9528022DE500BACB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3362CFA328022DE500BACB88 /* GameScene.swift in Sources */,
+				3362CFA528022DE500BACB88 /* GameViewController.swift in Sources */,
+				33641BE228034DAD006B3776 /* GameOverScene.swift in Sources */,
+				3362CF9D28022DE500BACB88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3362CFAE28022DE700BACB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3362CFB728022DE700BACB88 /* FinalProj_MarsAttacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3362CFB828022DE700BACB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3362CFC128022DE700BACB88 /* FinalProj_MarsAttacksUITests.swift in Sources */,
+				3362CFC328022DE700BACB88 /* FinalProj_MarsAttacksUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3362CFB428022DE700BACB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3362CF9828022DE500BACB88 /* FinalProj_MarsAttacks */;
+			targetProxy = 3362CFB328022DE700BACB88 /* PBXContainerItemProxy */;
+		};
+		3362CFBE28022DE700BACB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3362CF9828022DE500BACB88 /* FinalProj_MarsAttacks */;
+			targetProxy = 3362CFBD28022DE700BACB88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3362CFA628022DE500BACB88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3362CFA728022DE500BACB88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3362CFAB28022DE600BACB88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3362CFAC28022DE600BACB88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3362CFC428022DE700BACB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3362CFC528022DE700BACB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3362CFC728022DE700BACB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8Z4HGTFUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinalProj-MarsAttacks-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.athens.FinalProj-MarsAttacks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3362CFC828022DE700BACB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8Z4HGTFUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FinalProj-MarsAttacks-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.athens.FinalProj-MarsAttacks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3362CFCA28022DE700BACB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8Z4HGTFUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.athens.FinalProj-MarsAttacksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalProj_MarsAttacks.app/FinalProj_MarsAttacks";
+			};
+			name = Debug;
+		};
+		3362CFCB28022DE700BACB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8Z4HGTFUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.athens.FinalProj-MarsAttacksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinalProj_MarsAttacks.app/FinalProj_MarsAttacks";
+			};
+			name = Release;
+		};
+		3362CFCD28022DE700BACB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8Z4HGTFUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.athens.FinalProj-MarsAttacksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinalProj_MarsAttacks;
+			};
+			name = Debug;
+		};
+		3362CFCE28022DE700BACB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8Z4HGTFUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.athens.FinalProj-MarsAttacksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinalProj_MarsAttacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3362CF9428022DE500BACB88 /* Build configuration list for PBXProject "FinalProj_MarsAttacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3362CFC428022DE700BACB88 /* Debug */,
+				3362CFC528022DE700BACB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3362CFC628022DE700BACB88 /* Build configuration list for PBXNativeTarget "FinalProj_MarsAttacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3362CFC728022DE700BACB88 /* Debug */,
+				3362CFC828022DE700BACB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3362CFC928022DE700BACB88 /* Build configuration list for PBXNativeTarget "FinalProj_MarsAttacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3362CFCA28022DE700BACB88 /* Debug */,
+				3362CFCB28022DE700BACB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3362CFCC28022DE700BACB88 /* Build configuration list for PBXNativeTarget "FinalProj_MarsAttacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3362CFCD28022DE700BACB88 /* Debug */,
+				3362CFCE28022DE700BACB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3362CF9128022DE500BACB88 /* Project object */;
+}

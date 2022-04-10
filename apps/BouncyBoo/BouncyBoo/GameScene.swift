@@ -19,7 +19,8 @@ class GameScene: SKScene {
         Ground = SKSpriteNode(imageNamed: "Ground")
       //  Ground.setScale(0.5)
         //Editing position of ground
-        Ground.position = CGPoint(x: 0.5, y: -617)
+        //Ground.position = CGPoint(x: 0.5, y: -617)
+        Ground.position = CGPoint(x: self.frame.width/2, y: 0 + Ground.frame.height/2)
         self.addChild(Ground)
         
         //Set the size of ghost
