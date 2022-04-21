@@ -7,72 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33C7B1902809CD9D00BAFE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B18F2809CD9D00BAFE53 /* AppDelegate.swift */; };
-		33C7B1922809CD9D00BAFE53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B1912809CD9D00BAFE53 /* SceneDelegate.swift */; };
-		33C7B1942809CD9D00BAFE53 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B1932809CD9D00BAFE53 /* PhotosViewController.swift */; };
-		33C7B1972809CD9D00BAFE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C7B1952809CD9D00BAFE53 /* Main.storyboard */; };
-		33C7B1992809CD9F00BAFE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C7B1982809CD9F00BAFE53 /* Assets.xcassets */; };
-		33C7B19C2809CD9F00BAFE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C7B19A2809CD9F00BAFE53 /* LaunchScreen.storyboard */; };
-		33C7B1A72809CD9F00BAFE53 /* Lab13_PhotoramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B1A62809CD9F00BAFE53 /* Lab13_PhotoramaTests.swift */; };
-		33C7B1B12809CD9F00BAFE53 /* Lab13_PhotoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B1B02809CD9F00BAFE53 /* Lab13_PhotoramaUITests.swift */; };
-		33C7B1B32809CD9F00BAFE53 /* Lab13_PhotoramaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B1B22809CD9F00BAFE53 /* Lab13_PhotoramaUITestsLaunchTests.swift */; };
-		33C7B1C02809CEB600BAFE53 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B1BF2809CEB600BAFE53 /* FlickrAPI.swift */; };
-		33C7B1C22809D21D00BAFE53 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B1C12809D21D00BAFE53 /* PhotoStore.swift */; };
-		33C7B1C42809D92D00BAFE53 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C7B1C32809D92D00BAFE53 /* Photo.swift */; };
+		332865662812001F0065AE17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332865652812001F0065AE17 /* AppDelegate.swift */; };
+		332865682812001F0065AE17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332865672812001F0065AE17 /* SceneDelegate.swift */; };
+		3328656A2812001F0065AE17 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332865692812001F0065AE17 /* PhotosViewController.swift */; };
+		3328656D2812001F0065AE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3328656B2812001F0065AE17 /* Main.storyboard */; };
+		3328656F281200210065AE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3328656E281200210065AE17 /* Assets.xcassets */; };
+		33286572281200210065AE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33286570281200210065AE17 /* LaunchScreen.storyboard */; };
+		3328657D281200210065AE17 /* Lab13_PhotoramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3328657C281200210065AE17 /* Lab13_PhotoramaTests.swift */; };
+		33286587281200210065AE17 /* Lab13_PhotoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33286586281200210065AE17 /* Lab13_PhotoramaUITests.swift */; };
+		33286589281200210065AE17 /* Lab13_PhotoramaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33286588281200210065AE17 /* Lab13_PhotoramaUITestsLaunchTests.swift */; };
+		33286596281200A30065AE17 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33286595281200A30065AE17 /* FlickrAPI.swift */; };
+		33286598281200E20065AE17 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33286597281200E20065AE17 /* PhotoStore.swift */; };
+		3328659A281201370065AE17 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33286599281201370065AE17 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		33C7B1A32809CD9F00BAFE53 /* PBXContainerItemProxy */ = {
+		33286579281200210065AE17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 33C7B1842809CD9D00BAFE53 /* Project object */;
+			containerPortal = 3328655A2812001F0065AE17 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33C7B18B2809CD9D00BAFE53;
+			remoteGlobalIDString = 332865612812001F0065AE17;
 			remoteInfo = Lab13_Photorama;
 		};
-		33C7B1AD2809CD9F00BAFE53 /* PBXContainerItemProxy */ = {
+		33286583281200210065AE17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 33C7B1842809CD9D00BAFE53 /* Project object */;
+			containerPortal = 3328655A2812001F0065AE17 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33C7B18B2809CD9D00BAFE53;
+			remoteGlobalIDString = 332865612812001F0065AE17;
 			remoteInfo = Lab13_Photorama;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33C7B18C2809CD9D00BAFE53 /* Lab13_Photorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab13_Photorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C7B18F2809CD9D00BAFE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33C7B1912809CD9D00BAFE53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33C7B1932809CD9D00BAFE53 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
-		33C7B1962809CD9D00BAFE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		33C7B1982809CD9F00BAFE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		33C7B19B2809CD9F00BAFE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		33C7B19D2809CD9F00BAFE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C7B1A22809CD9F00BAFE53 /* Lab13_PhotoramaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab13_PhotoramaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C7B1A62809CD9F00BAFE53 /* Lab13_PhotoramaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab13_PhotoramaTests.swift; sourceTree = "<group>"; };
-		33C7B1AC2809CD9F00BAFE53 /* Lab13_PhotoramaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab13_PhotoramaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C7B1B02809CD9F00BAFE53 /* Lab13_PhotoramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab13_PhotoramaUITests.swift; sourceTree = "<group>"; };
-		33C7B1B22809CD9F00BAFE53 /* Lab13_PhotoramaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab13_PhotoramaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		33C7B1BF2809CEB600BAFE53 /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
-		33C7B1C12809D21D00BAFE53 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
-		33C7B1C32809D92D00BAFE53 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		332865622812001F0065AE17 /* Lab13_Photorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab13_Photorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332865652812001F0065AE17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		332865672812001F0065AE17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		332865692812001F0065AE17 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		3328656C2812001F0065AE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3328656E281200210065AE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33286571281200210065AE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33286573281200210065AE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33286578281200210065AE17 /* Lab13_PhotoramaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab13_PhotoramaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3328657C281200210065AE17 /* Lab13_PhotoramaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab13_PhotoramaTests.swift; sourceTree = "<group>"; };
+		33286582281200210065AE17 /* Lab13_PhotoramaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab13_PhotoramaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33286586281200210065AE17 /* Lab13_PhotoramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab13_PhotoramaUITests.swift; sourceTree = "<group>"; };
+		33286588281200210065AE17 /* Lab13_PhotoramaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab13_PhotoramaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33286595281200A30065AE17 /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		33286597281200E20065AE17 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		33286599281201370065AE17 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33C7B1892809CD9D00BAFE53 /* Frameworks */ = {
+		3328655F2812001F0065AE17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33C7B19F2809CD9F00BAFE53 /* Frameworks */ = {
+		33286575281200210065AE17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33C7B1A92809CD9F00BAFE53 /* Frameworks */ = {
+		3328657F281200210065AE17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,56 +82,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33C7B1832809CD9D00BAFE53 = {
+		332865592812001F0065AE17 = {
 			isa = PBXGroup;
 			children = (
-				33C7B18E2809CD9D00BAFE53 /* Lab13_Photorama */,
-				33C7B1A52809CD9F00BAFE53 /* Lab13_PhotoramaTests */,
-				33C7B1AF2809CD9F00BAFE53 /* Lab13_PhotoramaUITests */,
-				33C7B18D2809CD9D00BAFE53 /* Products */,
+				332865642812001F0065AE17 /* Lab13_Photorama */,
+				3328657B281200210065AE17 /* Lab13_PhotoramaTests */,
+				33286585281200210065AE17 /* Lab13_PhotoramaUITests */,
+				332865632812001F0065AE17 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		33C7B18D2809CD9D00BAFE53 /* Products */ = {
+		332865632812001F0065AE17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33C7B18C2809CD9D00BAFE53 /* Lab13_Photorama.app */,
-				33C7B1A22809CD9F00BAFE53 /* Lab13_PhotoramaTests.xctest */,
-				33C7B1AC2809CD9F00BAFE53 /* Lab13_PhotoramaUITests.xctest */,
+				332865622812001F0065AE17 /* Lab13_Photorama.app */,
+				33286578281200210065AE17 /* Lab13_PhotoramaTests.xctest */,
+				33286582281200210065AE17 /* Lab13_PhotoramaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33C7B18E2809CD9D00BAFE53 /* Lab13_Photorama */ = {
+		332865642812001F0065AE17 /* Lab13_Photorama */ = {
 			isa = PBXGroup;
 			children = (
-				33C7B18F2809CD9D00BAFE53 /* AppDelegate.swift */,
-				33C7B1912809CD9D00BAFE53 /* SceneDelegate.swift */,
-				33C7B1932809CD9D00BAFE53 /* PhotosViewController.swift */,
-				33C7B1952809CD9D00BAFE53 /* Main.storyboard */,
-				33C7B1BF2809CEB600BAFE53 /* FlickrAPI.swift */,
-				33C7B1C32809D92D00BAFE53 /* Photo.swift */,
-				33C7B1C12809D21D00BAFE53 /* PhotoStore.swift */,
-				33C7B1982809CD9F00BAFE53 /* Assets.xcassets */,
-				33C7B19A2809CD9F00BAFE53 /* LaunchScreen.storyboard */,
-				33C7B19D2809CD9F00BAFE53 /* Info.plist */,
+				332865652812001F0065AE17 /* AppDelegate.swift */,
+				332865672812001F0065AE17 /* SceneDelegate.swift */,
+				33286599281201370065AE17 /* Photo.swift */,
+				332865692812001F0065AE17 /* PhotosViewController.swift */,
+				33286595281200A30065AE17 /* FlickrAPI.swift */,
+				33286597281200E20065AE17 /* PhotoStore.swift */,
+				3328656B2812001F0065AE17 /* Main.storyboard */,
+				3328656E281200210065AE17 /* Assets.xcassets */,
+				33286570281200210065AE17 /* LaunchScreen.storyboard */,
+				33286573281200210065AE17 /* Info.plist */,
 			);
 			path = Lab13_Photorama;
 			sourceTree = "<group>";
 		};
-		33C7B1A52809CD9F00BAFE53 /* Lab13_PhotoramaTests */ = {
+		3328657B281200210065AE17 /* Lab13_PhotoramaTests */ = {
 			isa = PBXGroup;
 			children = (
-				33C7B1A62809CD9F00BAFE53 /* Lab13_PhotoramaTests.swift */,
+				3328657C281200210065AE17 /* Lab13_PhotoramaTests.swift */,
 			);
 			path = Lab13_PhotoramaTests;
 			sourceTree = "<group>";
 		};
-		33C7B1AF2809CD9F00BAFE53 /* Lab13_PhotoramaUITests */ = {
+		33286585281200210065AE17 /* Lab13_PhotoramaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				33C7B1B02809CD9F00BAFE53 /* Lab13_PhotoramaUITests.swift */,
-				33C7B1B22809CD9F00BAFE53 /* Lab13_PhotoramaUITestsLaunchTests.swift */,
+				33286586281200210065AE17 /* Lab13_PhotoramaUITests.swift */,
+				33286588281200210065AE17 /* Lab13_PhotoramaUITestsLaunchTests.swift */,
 			);
 			path = Lab13_PhotoramaUITests;
 			sourceTree = "<group>";
@@ -139,13 +139,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33C7B18B2809CD9D00BAFE53 /* Lab13_Photorama */ = {
+		332865612812001F0065AE17 /* Lab13_Photorama */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33C7B1B62809CD9F00BAFE53 /* Build configuration list for PBXNativeTarget "Lab13_Photorama" */;
+			buildConfigurationList = 3328658C281200210065AE17 /* Build configuration list for PBXNativeTarget "Lab13_Photorama" */;
 			buildPhases = (
-				33C7B1882809CD9D00BAFE53 /* Sources */,
-				33C7B1892809CD9D00BAFE53 /* Frameworks */,
-				33C7B18A2809CD9D00BAFE53 /* Resources */,
+				3328655E2812001F0065AE17 /* Sources */,
+				3328655F2812001F0065AE17 /* Frameworks */,
+				332865602812001F0065AE17 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +153,69 @@
 			);
 			name = Lab13_Photorama;
 			productName = Lab13_Photorama;
-			productReference = 33C7B18C2809CD9D00BAFE53 /* Lab13_Photorama.app */;
+			productReference = 332865622812001F0065AE17 /* Lab13_Photorama.app */;
 			productType = "com.apple.product-type.application";
 		};
-		33C7B1A12809CD9F00BAFE53 /* Lab13_PhotoramaTests */ = {
+		33286577281200210065AE17 /* Lab13_PhotoramaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33C7B1B92809CD9F00BAFE53 /* Build configuration list for PBXNativeTarget "Lab13_PhotoramaTests" */;
+			buildConfigurationList = 3328658F281200210065AE17 /* Build configuration list for PBXNativeTarget "Lab13_PhotoramaTests" */;
 			buildPhases = (
-				33C7B19E2809CD9F00BAFE53 /* Sources */,
-				33C7B19F2809CD9F00BAFE53 /* Frameworks */,
-				33C7B1A02809CD9F00BAFE53 /* Resources */,
+				33286574281200210065AE17 /* Sources */,
+				33286575281200210065AE17 /* Frameworks */,
+				33286576281200210065AE17 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				33C7B1A42809CD9F00BAFE53 /* PBXTargetDependency */,
+				3328657A281200210065AE17 /* PBXTargetDependency */,
 			);
 			name = Lab13_PhotoramaTests;
 			productName = Lab13_PhotoramaTests;
-			productReference = 33C7B1A22809CD9F00BAFE53 /* Lab13_PhotoramaTests.xctest */;
+			productReference = 33286578281200210065AE17 /* Lab13_PhotoramaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		33C7B1AB2809CD9F00BAFE53 /* Lab13_PhotoramaUITests */ = {
+		33286581281200210065AE17 /* Lab13_PhotoramaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33C7B1BC2809CD9F00BAFE53 /* Build configuration list for PBXNativeTarget "Lab13_PhotoramaUITests" */;
+			buildConfigurationList = 33286592281200210065AE17 /* Build configuration list for PBXNativeTarget "Lab13_PhotoramaUITests" */;
 			buildPhases = (
-				33C7B1A82809CD9F00BAFE53 /* Sources */,
-				33C7B1A92809CD9F00BAFE53 /* Frameworks */,
-				33C7B1AA2809CD9F00BAFE53 /* Resources */,
+				3328657E281200210065AE17 /* Sources */,
+				3328657F281200210065AE17 /* Frameworks */,
+				33286580281200210065AE17 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				33C7B1AE2809CD9F00BAFE53 /* PBXTargetDependency */,
+				33286584281200210065AE17 /* PBXTargetDependency */,
 			);
 			name = Lab13_PhotoramaUITests;
 			productName = Lab13_PhotoramaUITests;
-			productReference = 33C7B1AC2809CD9F00BAFE53 /* Lab13_PhotoramaUITests.xctest */;
+			productReference = 33286582281200210065AE17 /* Lab13_PhotoramaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		33C7B1842809CD9D00BAFE53 /* Project object */ = {
+		3328655A2812001F0065AE17 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					33C7B18B2809CD9D00BAFE53 = {
+					332865612812001F0065AE17 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					33C7B1A12809CD9F00BAFE53 = {
+					33286577281200210065AE17 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 33C7B18B2809CD9D00BAFE53;
+						TestTargetID = 332865612812001F0065AE17;
 					};
-					33C7B1AB2809CD9F00BAFE53 = {
+					33286581281200210065AE17 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 33C7B18B2809CD9D00BAFE53;
+						TestTargetID = 332865612812001F0065AE17;
 					};
 				};
 			};
-			buildConfigurationList = 33C7B1872809CD9D00BAFE53 /* Build configuration list for PBXProject "Lab13_Photorama" */;
+			buildConfigurationList = 3328655D2812001F0065AE17 /* Build configuration list for PBXProject "Lab13_Photorama" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +223,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 33C7B1832809CD9D00BAFE53;
-			productRefGroup = 33C7B18D2809CD9D00BAFE53 /* Products */;
+			mainGroup = 332865592812001F0065AE17;
+			productRefGroup = 332865632812001F0065AE17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33C7B18B2809CD9D00BAFE53 /* Lab13_Photorama */,
-				33C7B1A12809CD9F00BAFE53 /* Lab13_PhotoramaTests */,
-				33C7B1AB2809CD9F00BAFE53 /* Lab13_PhotoramaUITests */,
+				332865612812001F0065AE17 /* Lab13_Photorama */,
+				33286577281200210065AE17 /* Lab13_PhotoramaTests */,
+				33286581281200210065AE17 /* Lab13_PhotoramaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		33C7B18A2809CD9D00BAFE53 /* Resources */ = {
+		332865602812001F0065AE17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C7B19C2809CD9F00BAFE53 /* LaunchScreen.storyboard in Resources */,
-				33C7B1992809CD9F00BAFE53 /* Assets.xcassets in Resources */,
-				33C7B1972809CD9D00BAFE53 /* Main.storyboard in Resources */,
+				33286572281200210065AE17 /* LaunchScreen.storyboard in Resources */,
+				3328656F281200210065AE17 /* Assets.xcassets in Resources */,
+				3328656D2812001F0065AE17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33C7B1A02809CD9F00BAFE53 /* Resources */ = {
+		33286576281200210065AE17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33C7B1AA2809CD9F00BAFE53 /* Resources */ = {
+		33286580281200210065AE17 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,64 +263,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33C7B1882809CD9D00BAFE53 /* Sources */ = {
+		3328655E2812001F0065AE17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C7B1C42809D92D00BAFE53 /* Photo.swift in Sources */,
-				33C7B1C22809D21D00BAFE53 /* PhotoStore.swift in Sources */,
-				33C7B1942809CD9D00BAFE53 /* PhotosViewController.swift in Sources */,
-				33C7B1902809CD9D00BAFE53 /* AppDelegate.swift in Sources */,
-				33C7B1922809CD9D00BAFE53 /* SceneDelegate.swift in Sources */,
-				33C7B1C02809CEB600BAFE53 /* FlickrAPI.swift in Sources */,
+				3328659A281201370065AE17 /* Photo.swift in Sources */,
+				33286598281200E20065AE17 /* PhotoStore.swift in Sources */,
+				3328656A2812001F0065AE17 /* PhotosViewController.swift in Sources */,
+				332865662812001F0065AE17 /* AppDelegate.swift in Sources */,
+				332865682812001F0065AE17 /* SceneDelegate.swift in Sources */,
+				33286596281200A30065AE17 /* FlickrAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33C7B19E2809CD9F00BAFE53 /* Sources */ = {
+		33286574281200210065AE17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C7B1A72809CD9F00BAFE53 /* Lab13_PhotoramaTests.swift in Sources */,
+				3328657D281200210065AE17 /* Lab13_PhotoramaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33C7B1A82809CD9F00BAFE53 /* Sources */ = {
+		3328657E281200210065AE17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C7B1B32809CD9F00BAFE53 /* Lab13_PhotoramaUITestsLaunchTests.swift in Sources */,
-				33C7B1B12809CD9F00BAFE53 /* Lab13_PhotoramaUITests.swift in Sources */,
+				33286589281200210065AE17 /* Lab13_PhotoramaUITestsLaunchTests.swift in Sources */,
+				33286587281200210065AE17 /* Lab13_PhotoramaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		33C7B1A42809CD9F00BAFE53 /* PBXTargetDependency */ = {
+		3328657A281200210065AE17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33C7B18B2809CD9D00BAFE53 /* Lab13_Photorama */;
-			targetProxy = 33C7B1A32809CD9F00BAFE53 /* PBXContainerItemProxy */;
+			target = 332865612812001F0065AE17 /* Lab13_Photorama */;
+			targetProxy = 33286579281200210065AE17 /* PBXContainerItemProxy */;
 		};
-		33C7B1AE2809CD9F00BAFE53 /* PBXTargetDependency */ = {
+		33286584281200210065AE17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33C7B18B2809CD9D00BAFE53 /* Lab13_Photorama */;
-			targetProxy = 33C7B1AD2809CD9F00BAFE53 /* PBXContainerItemProxy */;
+			target = 332865612812001F0065AE17 /* Lab13_Photorama */;
+			targetProxy = 33286583281200210065AE17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		33C7B1952809CD9D00BAFE53 /* Main.storyboard */ = {
+		3328656B2812001F0065AE17 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33C7B1962809CD9D00BAFE53 /* Base */,
+				3328656C2812001F0065AE17 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		33C7B19A2809CD9F00BAFE53 /* LaunchScreen.storyboard */ = {
+		33286570281200210065AE17 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33C7B19B2809CD9F00BAFE53 /* Base */,
+				33286571281200210065AE17 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -328,7 +328,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		33C7B1B42809CD9F00BAFE53 /* Debug */ = {
+		3328658A281200210065AE17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		33C7B1B52809CD9F00BAFE53 /* Release */ = {
+		3328658B281200210065AE17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -444,7 +444,7 @@
 			};
 			name = Release;
 		};
-		33C7B1B72809CD9F00BAFE53 /* Debug */ = {
+		3328658D281200210065AE17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -472,7 +472,7 @@
 			};
 			name = Debug;
 		};
-		33C7B1B82809CD9F00BAFE53 /* Release */ = {
+		3328658E281200210065AE17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -500,7 +500,7 @@
 			};
 			name = Release;
 		};
-		33C7B1BA2809CD9F00BAFE53 /* Debug */ = {
+		33286590281200210065AE17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -520,7 +520,7 @@
 			};
 			name = Debug;
 		};
-		33C7B1BB2809CD9F00BAFE53 /* Release */ = {
+		33286591281200210065AE17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -540,7 +540,7 @@
 			};
 			name = Release;
 		};
-		33C7B1BD2809CD9F00BAFE53 /* Debug */ = {
+		33286593281200210065AE17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -558,7 +558,7 @@
 			};
 			name = Debug;
 		};
-		33C7B1BE2809CD9F00BAFE53 /* Release */ = {
+		33286594281200210065AE17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -579,43 +579,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33C7B1872809CD9D00BAFE53 /* Build configuration list for PBXProject "Lab13_Photorama" */ = {
+		3328655D2812001F0065AE17 /* Build configuration list for PBXProject "Lab13_Photorama" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33C7B1B42809CD9F00BAFE53 /* Debug */,
-				33C7B1B52809CD9F00BAFE53 /* Release */,
+				3328658A281200210065AE17 /* Debug */,
+				3328658B281200210065AE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33C7B1B62809CD9F00BAFE53 /* Build configuration list for PBXNativeTarget "Lab13_Photorama" */ = {
+		3328658C281200210065AE17 /* Build configuration list for PBXNativeTarget "Lab13_Photorama" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33C7B1B72809CD9F00BAFE53 /* Debug */,
-				33C7B1B82809CD9F00BAFE53 /* Release */,
+				3328658D281200210065AE17 /* Debug */,
+				3328658E281200210065AE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33C7B1B92809CD9F00BAFE53 /* Build configuration list for PBXNativeTarget "Lab13_PhotoramaTests" */ = {
+		3328658F281200210065AE17 /* Build configuration list for PBXNativeTarget "Lab13_PhotoramaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33C7B1BA2809CD9F00BAFE53 /* Debug */,
-				33C7B1BB2809CD9F00BAFE53 /* Release */,
+				33286590281200210065AE17 /* Debug */,
+				33286591281200210065AE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33C7B1BC2809CD9F00BAFE53 /* Build configuration list for PBXNativeTarget "Lab13_PhotoramaUITests" */ = {
+		33286592281200210065AE17 /* Build configuration list for PBXNativeTarget "Lab13_PhotoramaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33C7B1BD2809CD9F00BAFE53 /* Debug */,
-				33C7B1BE2809CD9F00BAFE53 /* Release */,
+				33286593281200210065AE17 /* Debug */,
+				33286594281200210065AE17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 33C7B1842809CD9D00BAFE53 /* Project object */;
+	rootObject = 3328655A2812001F0065AE17 /* Project object */;
 }

@@ -2,7 +2,7 @@
 //  PhotoStore.swift
 //  Lab13_Photorama
 //
-//  Created by Alyson Mosely on 4/15/22.
+//  Created by Alyson Mosely on 4/21/22.
 //
 
 import UIKit
@@ -77,3 +77,4 @@ class PhotoStore {
     }
     
 }
+
