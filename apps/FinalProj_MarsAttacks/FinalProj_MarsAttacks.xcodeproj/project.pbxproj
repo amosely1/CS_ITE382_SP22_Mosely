@@ -24,6 +24,7 @@
 		33641BDE28033733006B3776 /* Fire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 33641BD928033296006B3776 /* Fire.wav */; };
 		33641BDF28033739006B3776 /* A-Space Black Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33641BDC28033706006B3776 /* A-Space Black Demo.otf */; };
 		33641BE228034DAD006B3776 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33641BE128034DAD006B3776 /* GameOverScene.swift */; };
+		33C7B1C62809EC1F00BAFE53 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = 33C7B1C52809EC1F00BAFE53 /* GameOver.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		33641BDC28033706006B3776 /* A-Space Black Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A-Space Black Demo.otf"; sourceTree = "<group>"; };
 		33641BE028033836006B3776 /* FinalProj-MarsAttacks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FinalProj-MarsAttacks-Info.plist"; sourceTree = SOURCE_ROOT; };
 		33641BE128034DAD006B3776 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		33C7B1C52809EC1F00BAFE53 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				33641BE128034DAD006B3776 /* GameOverScene.swift */,
 				3362CFA428022DE500BACB88 /* GameViewController.swift */,
 				33641BD828033296006B3776 /* Explosion.wav */,
+				33C7B1C52809EC1F00BAFE53 /* GameOver.wav */,
 				33641BDC28033706006B3776 /* A-Space Black Demo.otf */,
 				33641BD928033296006B3776 /* Fire.wav */,
 				3362CFA628022DE500BACB88 /* Main.storyboard */,
@@ -253,6 +256,7 @@
 			files = (
 				33641BDF28033739006B3776 /* A-Space Black Demo.otf in Resources */,
 				33641BDE28033733006B3776 /* Fire.wav in Resources */,
+				33C7B1C62809EC1F00BAFE53 /* GameOver.wav in Resources */,
 				33641BDD2803372E006B3776 /* Explosion.wav in Resources */,
 				3362CFA828022DE500BACB88 /* Main.storyboard in Resources */,
 				3362CF9F28022DE500BACB88 /* GameScene.sks in Resources */,

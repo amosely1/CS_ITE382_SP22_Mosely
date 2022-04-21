@@ -31,6 +31,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     let bulletSound = SKAction.playSoundFileNamed("Fire.wav", waitForCompletion: false)
     let explosionSound = SKAction.playSoundFileNamed("Explosion.wav", waitForCompletion: false)
+    let gameOverSound = SKAction.playSoundFileNamed("GameOver.wav", waitForCompletion: true)
     
     //set up game state machine
     enum gameState{
@@ -184,7 +185,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         //change to game over screen
         let changeSceneAction = SKAction.run(changeScene)
         let waitToChangeScene = SKAction.wait(forDuration: 1)
-        let changeSceneSequence = SKAction.sequence([waitToChangeScene, changeSceneAction])
+        let changeSceneSequence = SKAction.sequence([waitToChangeScene, gameOverSound, changeSceneAction])
         self.run(changeSceneSequence)
         
         
